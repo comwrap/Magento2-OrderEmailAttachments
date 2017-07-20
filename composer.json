@@ -1,12 +1,6 @@
 {
     "name": "comwrap/order_email_attachments",
     "description": "",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@gitlab.comwrap.eu:Magento_2/Comwrap_OrderEmailAttachments.git"
-        }
-    ],
     "type": "magento2-module",
     "version": "1.0.0",
     "license": [
