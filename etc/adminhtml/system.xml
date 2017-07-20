@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="sales_email">
+            <group id="order">
+                <field id="attachment_1" type="Magento\Config\Block\System\Config\Form\Field\File" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Order Email Attachment 1</label>
+                    <backend_model>Comwrap\OrderEmailAttachments\Model\Config\Backend\OrderAttachment</backend_model>
+                    <upload_dir config="system" scope_info="1">order_email</upload_dir>
+                    <comment>pdf, xls, doc, docx, png, jpg, jpeg</comment>
+                </field>
+                <field id="attachment_2" type="Magento\Config\Block\System\Config\Form\Field\File" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Order Email Attachment 2</label>
+                    <backend_model>Comwrap\OrderEmailAttachments\Model\Config\Backend\OrderAttachment</backend_model>
+                    <upload_dir config="system" scope_info="1">order_email</upload_dir>
+                    <comment>pdf, xls, doc, docx, png, jpg, jpeg</comment>
+                </field>
+                <field id="attachment_3" type="Magento\Config\Block\System\Config\Form\Field\File" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Order Email Attachment 3</label>
+                    <backend_model>Comwrap\OrderEmailAttachments\Model\Config\Backend\OrderAttachment</backend_model>
+                    <upload_dir config="system" scope_info="1">order_email</upload_dir>
+                    <comment>pdf, xls, doc, docx, png, jpg, jpeg</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
